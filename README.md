@@ -3,6 +3,28 @@
 
 ## 目录结构
 
+```text
+ts-design-patterns-23
+ ┣━ src
+ ┃ ┣━ 代理模式
+ ┃ ┃ ┗━ app.ts
+ ┃ ┣━ 单例模式
+ ┃ ┃ ┣━ app.ts
+ ┃ ┃ ┣━ test.ts
+ ┃ ┃ ┗━ tsconfig.json
+ ┃ ┣━ 工厂模式
+ ┃ ┃ ┣━ app.ts
+ ┃ ┃ ┣━ test.ts
+ ┃ ┃ ┗━ tsconfig.json
+ ┃ ┣━ 装饰者模式
+ ┃ ┃ ┗━ app.ts
+ ┃ ┗━ 适配器模式
+ ┃ ┃ ┣━ app.ts
+ ┃ ┃ ┣━ test.ts
+ ┃ ┃ ┗━ tsconfig.json
+ ┗━ tsconfig.json
+
+```
 ## 设计模式原则
 
 - 单一职责
