@@ -1,7 +1,8 @@
 interface UserInfo {
-    name: string,
-    addr?: string
+    name: string;
+    addr?: string;
 }
+
 // 第三方框架的 api
 class RegistUser {
     private userInfo: UserInfo;
@@ -21,6 +22,7 @@ export default class RegistUserApi {
     constructor(userInfo: UserInfo) {
         this.regitUser = new RegistUser(userInfo);
     }
+
     getInfo(): string {
         const userInfo = this.regitUser.getInfo();
         return '中国区' + Object.entries(userInfo).join(',');

@@ -5,11 +5,10 @@ const CONN_OPTION = {
     port: 12004,
     user: 'root',
     password: 'Leaper@123',
-    database: 'rtp_pol_web'
-}
+    database: 'rtp_pol_web',
+};
 
 export default class Mysql {
-
     private conn: Pool;
     private connOptions: ConnectionOptions = {};
     static connInstance: Mysql;
@@ -21,12 +20,9 @@ export default class Mysql {
     }
 
     static getConnection(): Pool {
-
-        if (Mysql.connInstance) {
-            return Mysql.connInstance.conn;
+        if (!Mysql.connInstance) {
+            Mysql.connInstance = new Mysql();
         }
-
-        Mysql.connInstance = new Mysql();
         return Mysql.connInstance.conn;
     }
 }
