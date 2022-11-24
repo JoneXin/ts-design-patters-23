@@ -1,30 +1,8 @@
 
 ## 简介
 
-## 目录结构
+ 设计模式的 ts 简单实现
 
-```text
-ts-design-patterns-23
- ┣━ src
- ┃ ┣━ 代理模式
- ┃ ┃ ┗━ app.ts
- ┃ ┣━ 单例模式
- ┃ ┃ ┣━ app.ts
- ┃ ┃ ┣━ test.ts
- ┃ ┃ ┗━ tsconfig.json
- ┃ ┣━ 工厂模式
- ┃ ┃ ┣━ app.ts
- ┃ ┃ ┣━ test.ts
- ┃ ┃ ┗━ tsconfig.json
- ┃ ┣━ 装饰者模式
- ┃ ┃ ┗━ app.ts
- ┃ ┗━ 适配器模式
- ┃ ┃ ┣━ app.ts
- ┃ ┃ ┣━ test.ts
- ┃ ┃ ┗━ tsconfig.json
- ┗━ tsconfig.json
-
-```
 ## 设计模式原则
 
 - 单一职责
@@ -50,4 +28,68 @@ ts-design-patterns-23
 
 > 面向接口编程，依赖抽象而不是具体  
 > 使用方只要管制接口，而不关注实现
+
+## 目录结构
+
+```text
+ts-design-patters-23
+ ├─ src
+ │ ├─ 中介者模式
+ │ │ └─ app.ts
+ │ ├─ 享元模式
+ │ │ └─ app.ts
+ │ ├─ 代理模式
+ │ │ ├─ app.ts
+ │ │ └─ test.ts
+ │ ├─ 单例模式
+ │ │ ├─ app.ts
+ │ │ ├─ test.ts
+ │ │ └─ tsconfig.json
+ │ ├─ 原型模式
+ │ │ └─ app.ts
+ │ ├─ 命令模式
+ │ │ └─ app.ts
+ │ ├─ 备忘录模式
+ │ │ └─ app.ts
+ │ ├─ 外观模式
+ │ │ └─ app.ts
+ │ ├─ 工厂模式
+ │ │ ├─ app.ts
+ │ │ ├─ test.ts
+ │ │ └─ tsconfig.json
+ │ ├─ 桥接模式
+ │ │ ├─ app.ts
+ │ │ └─ test.ts
+ │ ├─ 模板方法模式
+ │ │ └─ app.ts
+ │ ├─ 状态模式
+ │ │ ├─ app.ts
+ │ │ └─ test.ts
+ │ ├─ 策略模式
+ │ │ ├─ app.ts
+ │ │ └─ test.ts
+ │ ├─ 组合模式
+ │ │ └─ app.ts
+ │ ├─ 职责链模式
+ │ │ └─ app.ts
+ │ ├─ 装饰者模式
+ │ │ └─ app.ts
+ │ ├─ 观察者模式
+ │ │ ├─ app.ts
+ │ │ └─ test.ts
+ │ ├─ 解析器模式
+ │ │ └─ app.ts
+ │ ├─ 访问者模式
+ │ │ └─ app.ts
+ │ ├─ 迭代器模式
+ │ │ ├─ app.ts
+ │ │ └─ test.ts
+ │ └─ 适配器模式
+ │ │ ├─ app.ts
+ │ │ ├─ test.ts
+ │ │ └─ tsconfig.json
+ ├─ README.md
+ └─ tsconfig.json
+
+```
 
